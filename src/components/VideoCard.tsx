@@ -2,7 +2,9 @@ import { useRouter } from "next/router"
 import type { Video } from "../videos"
 import { Line } from "./Line"
 
-export const VideoCard = ({video}: {video: Video}) => {
+export const VideoCard = ({video}: {video: Video}) => {//this 1 st video has type which come from Video
+    /* It takes a single prop video which is of type Video. The type Video should be defined elsewhere in your codebase.
+*/
     const router = useRouter();
     return <div className="cursor-pointer" onClick={() => {
         router.push("/video/1");
