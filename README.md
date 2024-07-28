@@ -1,7 +1,7 @@
 
 # YouTube Frontend 
 
-This project is a YouTube frontend  built using Next.js, TypeScript, React, and Tailwind CSS. The application mimics the basic layout and functionality of YouTube, providing a responsive and interactive user interface.
+This project is a YouTube frontend  built using Next.js and useRouter hook from Next.js to navigate to a different page when a user clicks on a div element, TypeScript, React, and Tailwind CSS. The application mimics the basic layout and functionality of YouTube, providing a responsive and interactive user interface.
 
 ## Features
 
